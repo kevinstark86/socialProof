@@ -22,6 +22,22 @@ body {
     width: 100%;
     max-width: 768px; 
     padding: 0 20px;
+    position: relative;
+}
+
+.bg-pattern mobile-bg-top,
+.bg-pattern mobile-bg-bottom {
+    position: absolute;
+}
+
+.bg-pattern .mobile-bg-top {
+    top: -600px;
+    left: 0
+}
+
+.bg-pattern .mobile-bg-bottom {
+    bottom: -200px;
+    right: 0;
 }
 
 .hero {
@@ -32,10 +48,18 @@ body {
 .left-section {
     text-align: center;
     margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.left-section h1 {
+    font-size: 38px;
+    color: var(--purple);
+    margin-bottom: 30px;
 }
 
 .right-section {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 /* reviews */
@@ -45,6 +69,15 @@ body {
     padding: 10px 30px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+.rating h2 {
+    font-size: 13px;
+    color: var(--purple);
+}
+
+.star {
+    margin-bottom: 10px;
 }
 
 
@@ -58,11 +91,12 @@ body {
 
 .card {
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
     background: var(--purple);
-    padding: 30px 30px;
+    padding: 50px 35px;
     border-radius: 10px;
     margin-bottom: 20px;
+    color: var(--white);
 }
 
 .card-header {
@@ -70,8 +104,17 @@ body {
     flex-direction: row;
 }
 
+.card-body p {
+    line-height: 30px;
+}
+
 .profile-pic {
     margin-right: 30px;
+    width: 60px;
+}
+
+img {
+    border-radius: 50%;
 }
 
 
