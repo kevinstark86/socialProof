@@ -17,6 +17,61 @@
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px; 
+    padding: 0 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column
+}
+
+.left-section {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.right-section {
+    text-align: center;
+}
+
+/* reviews */
+
+.rating {
+    background: var(--light-grayish);
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+/* Cards */
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    background: var(--purple);
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    margin-right: 30px;
 }
 
 
