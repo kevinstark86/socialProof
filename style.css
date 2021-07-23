@@ -23,6 +23,7 @@ body {
     max-width: 768px; 
     padding: 0 20px;
     position: relative;
+    margin: 0 auto;
 }
 
 .bg-pattern mobile-bg-top,
@@ -86,7 +87,7 @@ body {
 .card-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -104,17 +105,27 @@ body {
     flex-direction: row;
 }
 
+.card-header h3 {
+    margin-bottom: 5px;
+}
+
+.card-header h4 {
+    font-weight: 400;
+    color: var(--pink);
+}
+
 .card-body p {
     line-height: 30px;
 }
 
 .profile-pic {
-    margin-right: 30px;
+    margin-right: 60px;
     width: 60px;
 }
 
 img {
     border-radius: 50%;
+
 }
 
 
